@@ -1,4 +1,4 @@
-# oassis-dev
+# Oassis
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-oassis-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://oassis.dev/
+Oassis provides web scraping, crawling, and browser automation APIs for AI agents. It offers synchronous tools for immediate results and asynchronous task-based jobs, along with an MCP server for managing credits and usage. Users can try the service with free trial credits, access detailed documentation, and integrate web data extraction into their applications.
+
+**Areas:** Company · WebScraping · BrowserAutomation · AI · API
+
+## Oassis on APIs.io
+
+Everything profiled for Oassis is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/oassis-dev/](https://apis.io/providers/oassis-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Oassis Account API](https://apis.io/apis/oassis-dev/oassis-dev-account-api/) — Shared API-key credits.
+- [Oassis Agents API](https://apis.io/apis/oassis-dev/oassis-dev-agents-api/) — Scheduled monitoring services: /agents/v1. Currently free with an API key; not MCP tools.
+- [Oassis Discovery API](https://apis.io/apis/oassis-dev/oassis-dev-discovery-api/) — Descriptions and challenges; these do not execute tools.
+- [Oassis Web Tasks API](https://apis.io/apis/oassis-dev/oassis-dev-web-tasks-api/) — Asynchronous batch extraction, crawling and research: /tasks/v1. Separate start, status and cancellation operations.
+- [Oassis Web Tools API](https://apis.io/apis/oassis-dev/oassis-dev-web-tools-api/) — Individual operations: /web/v1.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Oassis Agentic Access](https://apis.io/agentic-access/oassis-dev/oassis-dev-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Oassis API Rules](https://apis.io/rules/oassis-dev/oassis-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Oassis Authentication](https://apis.io/security/oassis-dev/oassis-dev-authentication/)
+- [Oassis Domain Security](https://apis.io/security/oassis-dev/oassis-dev-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Oassis Plans Pricing](https://apis.io/plans/oassis-dev/oassis-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://oassis.dev/)
+- [Documentation](https://oassis.dev/docs)
+- [Getting started](https://oassis.dev/docs)
+- [Pricing](https://oassis.dev/pricing)
+- [Sign up](https://oassis.dev/signup)
+- [Terms of service](https://oassis.dev/terms)
+- [Privacy policy](https://oassis.dev/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.0** — developing · rubric 0.28.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 43.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 59.1 |
+
+**Agent readiness 36.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/oassis-dev/](https://apis.io/providers/oassis-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Oassis: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/oassis-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
