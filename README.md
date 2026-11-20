@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Oassis provides web scraping, crawling, and browser automation APIs for AI agents. It offers synchronous tools for immediate results and asynchronous task-based jobs, along with an MCP server for managing credits and usage. Users can try the service with free trial credits, access detailed documentation, and integrate web data extraction into their applications.
+Oassis provides a web scraping, crawling, browser automation and research API designed for AI agents. It offers synchronous Web Tools, asynchronous Web Tasks, and scheduled Agents to extract page content, discover URLs, search the web, and run browser‑based actions. The service can be used without an account or API key for limited trial operations, and supports multiple output formats such as markdown, HTML, JSON, PDF and screenshots. The production API base URL is https://api.oassis.dev, with endpoints like /web/v1/scrape, /web/v1/map and /web/v1/search.
 
-**Areas:** Company · WebScraping · BrowserAutomation · AI · API
+**Areas:** WebScraping · BrowserAutomation · AIAgents · API · MCP
 
 ## Oassis on APIs.io
 
@@ -115,15 +115,14 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://oassis.dev/)
 - [Documentation](https://oassis.dev/docs)
-- [Getting started](https://oassis.dev/docs)
+- [API reference](https://api.oassis.dev/openapi.json)
 - [Pricing](https://oassis.dev/pricing)
-- [Sign up](https://oassis.dev/signup)
 - [Terms of service](https://oassis.dev/terms)
 - [Privacy policy](https://oassis.dev/privacy)
 
 ## API Evangelist rating
 
-**Kin Score 47.0** — developing · rubric 0.28.0 · scored 2026-11-20
+**Kin Score 46.2** — developing · rubric 0.28.0 · scored 2026-11-20
 
 | Facet | Score |
 |---|---|
@@ -131,17 +130,17 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Contract quality | 43.0 |
 | Contract governance | 79.1 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 39.8 |
+| Developer ergonomics | 35.0 |
 | Access clarity | 59.1 |
 
-**Agent readiness 36.3** — agent-ready
+**Agent readiness 39.3** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
 | Agentic Access | unknown |
 | Reversibility Documented | — |
-| MCP Server | — |
+| MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | verified |
 | Error Semantics | derived (partial credit) |
@@ -161,7 +160,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/oassis-dev/](https://apis.io/providers/oassis-dev/).
 
